@@ -37,14 +37,43 @@
   }
 }
 
+.showhide,
+.closeError,
+.shareButton,
+.mediaButton {
+  transition: background 120ms ease, color 120ms ease;
+}
+
 .showhide:hover {
-  background: #595959;
+  background: #4a4a52;
 }
 
 .closeError:hover {
-  background: #4f4f4f;
+  background: #45454d;
+  color: white;
 }
 
 .shareButton:hover {
-  background: #4f4f4f;
+  background: #45454d;
+  color: white;
+}
+
+.mediaButton:hover {
+  color: #ffffff !important;
+}
+
+/* Pulsating border to make the "Sync To This" button stand out */
+@keyframes syncPulse {
+  0%, 100% {
+    border-color: #4d4d55;
+    box-shadow: 0 0 0 0 rgba(145, 71, 255, 0);
+  }
+  50% {
+    border-color: #9147ff;
+    box-shadow: 0 0 7px 1px rgba(145, 71, 255, 0.6);
+  }
+}
+
+.syncPulse {
+  animation: syncPulse 1.6s ease-in-out infinite;
 }

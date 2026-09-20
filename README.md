@@ -1,3 +1,11 @@
+# Forked
+- To fix bugs and support kick vods.
+- Use npm instead of yarn
+- Live: https://mirror137.github.io/multivod/
+
+---
+---
+
 # Twitch Multi VOD
 
 Twitch Multi VOD is a webapp that lets you play Twitch VODs at the same time and sync them up. I built it because I wanted to use it to watch some streamers play SCP at the same time. If you've noticed an issue feel free to submit it—I'll definitely see it as I get emails for this repo, and probably will end up dealing with it if possible. Unfortunately the Twitch API is limiting, so I can't guarantee getting to everything. As for new feature requests...ask away, but no promises. I used to say I wouldn't get to them unless this website blows up, but it sort of has, so I'm more motivated to build useful additions for my users.
